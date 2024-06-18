@@ -1,0 +1,508 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+input {
+    outline:none
+}
+
+p {
+    font-size: 13px !important;
+    margin: 0;
+    padding: 0px 2px;
+}
+
+a {
+    color: #000;
+}
+
+ul {
+    padding: 0;
+}
+
+.top_container {
+    padding: 10px 15px;
+    background-color: #0c477c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+}
+
+.catalog svg {
+    width: 30px;
+    height: auto;
+    border-radius: 50px;
+    padding: 5px;
+    transition: .2s;
+}
+
+
+.search input {
+    width: 270px;
+    padding: 10px 7px;
+    border-radius: 10px;
+    /* border: 0.5px solid black; */
+    font-size: 14px;
+    border: none;
+}
+
+.main {
+    position: relative;
+    padding: 15px;
+    transition: .3s;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 68px;
+    height: 48px;
+}
+
+.logo span {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.info {
+    display: flex;
+    font-size: 11px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.add_butt_mail {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_butt_mail button {
+    padding: 10px 15px;
+    background-color: #e77129;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.news {
+    margin-top: 15px;
+}
+
+.news_content {
+    margin-bottom: 15px;
+}
+
+.news span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text_news_content .date {
+    max-width: 70px;
+    padding: 2px 5px;
+    background-color: #e77129;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.text_news_content .oglav {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text_news_content .describtions {
+    font-size: 12px;
+}
+
+.news_content img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2px;
+}
+
+.span_line {
+    width: 90%;
+    border: 1px solid #0c477c;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.contacts .contacts_pod_post {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contacts p {
+    font-size: 12px;
+}
+
+.container-info span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-info img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom_bar_info_line {
+    background: #0c477c;
+    padding: 20px 0;
+}
+
+.container-info-link span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-info-link ul {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.welcom {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.welcom img {
+    width: 100%;
+}
+
+.welcom span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.welcom p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.modal_win_menu {
+    height: auto;
+    position: relative;
+    background-color: #0c477c;
+    color: #fff;
+    padding: 10px;
+    z-index: -1;
+    transition: .3s;
+}
+
+.modal_catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modal_catalog span {
+    padding: 3px 6px;
+    font-size: 14px;
+    font-family: 600;
+    background-color: rgba(128, 128, 128, 0.699);
+    border-radius: 5px;
+}
+
+.modal_add_butt_mail {
+    margin-top: 15px;
+    transition: .3s;
+}
+
+.modal_add_butt_mail span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container_modal_add_butt_mail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.container_modal_add_butt_mail input {
+    max-width: 300px;
+    min-width: 300px;
+    margin: 5px;
+    padding: 5px 8px;
+    border: none;
+    border-bottom: 1px solid #0c477c !important;
+    font-size: 14px;
+}
+
+.container_modal_add_butt_mail button {
+    padding: 10px 15px;
+    background-color: #0c477c;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 150px;
+}
+
+.main_info_catalog {
+    display: flex;
+    border: none;
+    border-top: 1px solid #e77129 !important;
+    border-bottom: 1px solid #e77129 !important;
+    flex-direction: column;
+}
+
+.main_info_catalog span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e77129;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container_main_info_catalog {
+    max-width: 208px;
+    min-width: 208px;
+    height: 112px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container_main_info_catalog img{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.catalog_menu_main_info {
+    display: flex;
+    max-width: 100%;
+    overflow: scroll;
+    margin-bottom: 10px;
+}
+
+.catalog_menu_main_info a {
+    border-right: 1px solid #e77129;
+}
+
+
+.modal_catalog_add_full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.modal_catalog_add_full span {
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+.bottom_bar_info_line {
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    background: #fff;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    width: 270px;
+}
+
+.search img {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    opacity: 0.7;
+}
+
+
+.school-information span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.school-information {
+   margin-bottom: 15px; 
+}
+
+.modal_catalog a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+}
+
+.info_parents .container_info_parents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(209, 209, 209, 0.699);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info_parents .container_info_parents img {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.info_parents_detail {
+    display: flex ;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.info_parents_detail_img {
+    display: flex ;
+    flex-direction: column ;
+}
+
+.info_parents_detail_img img {
+    width: 250px !important;
+    height: 260px !important;
+}
+
+
+.info_students .container_info_students {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(209, 209, 209, 0.699);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info_students .container_info_students img {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.info_students_detail {
+    display: flex ;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.info_students_detail_img {
+    display: flex ;
+    flex-direction: column ;
+}
+
+.info_students_detail_img img {
+    width: 250px !important;
+    height: 260px !important;
+}
+
+.bottom_bar_info {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.school-eat {
+    margin-bottom: 15px; 
+}
+
+.school-eat img {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.info_GIA .container_info_GIA {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(209, 209, 209, 0.699);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info_GIA .container_info_GIA img {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.info_GIA_detail {
+    display: flex ;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.info_GIA_detail_img {
+    display: flex ;
+    flex-direction: column ;
+}
+
+.info_GIA_detail_img img {
+    width: 250px !important;
+    height: 260px !important;
+}
